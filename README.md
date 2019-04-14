@@ -7,3 +7,9 @@ How do I fix thissssss?
 I suppose, since I am always happy about anything related with climbing, why not take this chance to create this Gatsby site for climbing. It fits this theme so nicely.
 
 I'm gonna call it anyhowly rocks. That's the born style of my community. And the domain is cheap so why not ¯\_(ツ)\_/¯
+
+## What's Anyhowly Rocks
+
+Basically my friend [@huijing](https://github.com/huijing) anyhowly inspires me with a bunch of keywords and hashtags of life. And `anyhowly` is a classic.
+
+I anyhowly climb lah.
