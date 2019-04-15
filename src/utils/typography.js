@@ -3,16 +3,22 @@ import Typography from "typography";
 const AnyhowlyRocksTheme = {
   googleFonts: [
     {
-      name: "Raleway",
-      styles: ["200", "200i", "300", "300i", "400", "400i", "700", "700i"]
+      name: "Patua One",
+      styles: ["400"]
     },
     {
-      name: "Yanone Kaffeesatz",
-      styles: ["200", "300", "400", "700"]
+      name: "Gorditas",
+      styles: ["400", "700"]
+    },
+    {
+      name: "Open Sans",
+      styles: ["400", "400i", "700"]
     }
   ],
-  headerFontFamily: ["Yanone Kaffeesatz", "Futura", "sans-serif"],
-  bodyFontFamily: ["Raleway", "monospace"],
+  headerFontFamily: ["Patua One", "Futura", "sans-serif"],
+  bodyFontFamily: ["Open Sans", "sans-serif"],
+  baseFontSize: "18px",
+  scaleRatio: 3,
   overrideStyles: () => ({
     "*": {
       background: "#222",
