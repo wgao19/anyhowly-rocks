@@ -1,28 +1,52 @@
 import Typography from "typography";
 
+const bodyFontFamily = ["Zilla Slab", "serif"];
+const headerFontFamily = ["Open Sans", "sans-serif"];
 const AnyhowlyRocksTheme = {
   googleFonts: [
     {
-      name: "Patua One",
+      name: "Bevan",
       styles: ["400"]
     },
+
     {
       name: "Gorditas",
       styles: ["400", "700"]
+    },
+    {
+      name: "Zilla Slab",
+      styles: ["400", "400i", "700", "700i"]
     },
     {
       name: "Open Sans",
       styles: ["400", "400i", "700"]
     }
   ],
-  headerFontFamily: ["Patua One", "Futura", "sans-serif"],
-  bodyFontFamily: ["Open Sans", "sans-serif"],
+  headerFontFamily,
+  bodyFontFamily,
   baseFontSize: "18px",
-  scaleRatio: 3,
+  scaleRatio: 2,
   overrideStyles: () => ({
     "*": {
-      background: "#222",
-      color: "#eee"
+      fontFamily: ["var(--body-font-family)", ...bodyFontFamily].join(","),
+      fontSize: "var(--body-font-size)"
+    },
+    body: {
+      padding: 0,
+      margin: 0
+    },
+    "h1,h2": {
+      color: "var(--highlight-color)",
+      fontFamily: ["var(--header-font-family)", ...headerFontFamily].join(",")
+    },
+    "h3,h4,h5,h6": {
+      fontFamily: ["var(--body-font-family)", ...headerFontFamily].join(",")
+    },
+    "h1 a, h2 a, h3 a, h4 a, h5 a, h6 a": {
+      textDecoration: "none"
+    },
+    a: {
+      color: "inherit"
     }
   })
 };
