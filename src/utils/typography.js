@@ -10,7 +10,7 @@ const AnyhowlyRocksTheme = {
     },
     {
       name: "Patua One",
-      styles: ["400"]
+      styles: ["400", "700"]
     },
     {
       name: "Gorditas",
@@ -26,8 +26,10 @@ const AnyhowlyRocksTheme = {
   baseFontSize: "24px",
   scaleRatio: 2,
   overrideStyles: () => ({
+    ":root": {
+      background: "#222"
+    },
     "*": {
-      background: "#222",
       color: "#eee",
       fontFamily: ["var(--body-font-family)", ...bodyFontFamily].join(","),
       fontSize: "var(--body-font-size)",
@@ -35,6 +37,9 @@ const AnyhowlyRocksTheme = {
     },
     "h1,h2,h3,h4,h5,h6": {
       fontFamily: ["var(--header-font-family)", ...headerFontFamily].join(",")
+    },
+    a: {
+      textDecoration: "none"
     }
   })
 };

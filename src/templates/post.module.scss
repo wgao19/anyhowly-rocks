@@ -1,0 +1,13 @@
+:local {
+  .postMeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .article {
+    margin: 0 auto;
+    max-width: 35rem;
+    color: white;
+  }
+}

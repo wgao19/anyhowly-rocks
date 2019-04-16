@@ -20,6 +20,12 @@ body {
   .navbar {
     display: flex;
     height: 2rem;
+    max-width: 35rem;
+    margin: 0 auto;
+
+    > * {
+      color: #eee;
+    }
   }
 
   .rox {
@@ -38,6 +44,7 @@ body {
     h5,
     h6 {
       letter-spacing: 2px;
+      font-weight: bold;
     }
   }
 }
