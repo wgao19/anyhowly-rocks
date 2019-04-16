@@ -1,0 +1,15 @@
+:local {
+  .navLink {
+    color: var(--nav-color);
+  }
+
+  .navLink + .navLink {
+    margin-left: 0.5rem;
+
+    &::before {
+      content: "/";
+      color: var(--highlight-color);
+      margin-right: 0.5rem;
+    }
+  }
+}

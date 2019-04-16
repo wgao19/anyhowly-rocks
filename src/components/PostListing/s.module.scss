@@ -1,0 +1,19 @@
+:local {
+  .post {
+    padding: 1rem 0;
+    margin: 0 auto 1rem;
+    display: block;
+    border-radius: 7px;
+    color: var(--color);
+  }
+
+  .title {
+    color: var(--highlight-color);
+  }
+
+  .read {
+    color: var(--highlight-color);
+    white-space: nowrap;
+    margin-left: 1em;
+  }
+}
