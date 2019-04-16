@@ -6,11 +6,12 @@ import ThemeToggle from "../components/ThemeToggle";
 import config from "../../data/SiteConfig";
 import s from "./styles.module.scss";
 
-const themeFromLocalStorage = localStorage.getItem("theme") || "rox";
 const THEMES = ["rocks", "rox"];
 
 const MainLayout = ({ children }) => {
-  const [theme, setTheme] = useState(themeFromLocalStorage);
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") || THEMES[1]
+  );
   const toggleTheme = currentTheme => {
     let preferredTheme;
     try {
