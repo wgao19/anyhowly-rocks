@@ -7,4 +7,10 @@ tags:
   - nonsense
 ---
 
-When I climb I would very often think to myself something funny, like our ancestors must be laughing at us about how weak we are. In their ages strong cavemen and cavewomen would fly around boulders to travel, or sometimes it gets tough and the hero is this tribesman who manages to climb to the top of the hill and defeat the beast that has been haunting the crowd. We now live in a world where cats and squirrels outclimb our species. I sometimes secretly feel I’m not living on par in our ancestors’ eyes and would get encouraged to work harder in trying to find harmony between my movements and the wall...
+So now you are a climber and you are not sure whether you should go climb because:
+
+- it's raining
+- you're hungry
+- you didn't bring your climbing shoes
+
+Well, remember the time we all lived on a tree. Those are not too much an issue to be honest...
