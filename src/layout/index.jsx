@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import Helmet from "react-helmet";
 import Intro from "../components/Intro";
 import config from "../../data/SiteConfig";
-import "./index.css";
 
 export default class MainLayout extends React.Component {
   render() {

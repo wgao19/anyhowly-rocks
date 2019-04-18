@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./UserLinks.css";
 
 class UserLinks extends Component {
   getLinkElements() {
@@ -11,12 +10,13 @@ class UserLinks extends Component {
       </button>
     ));
   }
+
   render() {
     const { userLinks } = this.props.config;
     if (!userLinks) {
       return null;
     }
-    return <div className="user-links">{this.getLinkElements()}</div>;
+    return <div>{this.getLinkElements()}</div>;
   }
 }
 
