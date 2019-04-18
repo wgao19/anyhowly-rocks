@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import cx from "classnames";
-import s from "./styles.module.scss";
+import s from "./s.module.scss";
 
 function ThemeToggle({ theme, className, onClick }) {
   return (

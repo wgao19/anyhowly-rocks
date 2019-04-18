@@ -10,4 +10,10 @@
   .title {
     color: var(--highlight-color);
   }
+
+  .read {
+    color: var(--highlight-color);
+    white-space: nowrap;
+    margin-left: 1em;
+  }
 }
