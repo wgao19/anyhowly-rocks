@@ -35,7 +35,6 @@ export default class PostTemplate extends React.Component {
             <div className={s.postMeta}>
               <PostTags tags={post.tags} />
             </div>
-            <UserInfo config={config} />
           </article>
         </div>
       </Layout>
