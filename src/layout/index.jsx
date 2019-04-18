@@ -11,6 +11,8 @@ import s from "./s.module.scss";
 
 const THEMES = ["rocks", "rox"];
 
+const localStorage = window.localStorage;
+
 const MainLayout = ({ children }) => {
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") || THEMES[1]
