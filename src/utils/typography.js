@@ -1,11 +1,11 @@
 import Typography from "typography";
 
-const headerFontFamily = ["Gorditas", "Patua One", "Futura", "sans-serif"];
-const bodyFontFamily = ["Gamja Flower", "Open Sans", "sans-serif"];
+const bodyFontFamily = ["Open Sans", "sans-serif"];
+const headerFontFamily = ["Open Sans", "sans-serif"];
 const AnyhowlyRocksTheme = {
   googleFonts: [
     {
-      name: "Gamja Flower",
+      name: "Bevan",
       styles: ["400"]
     },
     {
@@ -23,23 +23,27 @@ const AnyhowlyRocksTheme = {
   ],
   headerFontFamily,
   bodyFontFamily,
-  baseFontSize: "24px",
+  baseFontSize: "18px",
   scaleRatio: 2,
   overrideStyles: () => ({
     ":root": {
       background: "#222"
     },
     "*": {
-      color: "#eee",
       fontFamily: ["var(--body-font-family)", ...bodyFontFamily].join(","),
-      fontSize: "var(--body-font-size)",
-      lineHeight: "24px"
+      fontSize: "var(--body-font-size)"
     },
-    "h1,h2,h3,h4,h5,h6": {
+    body: {
+      padding: 0,
+      margin: 0
+    },
+    "h1,h2": {
+      color: "var(--highlight-color)",
       fontFamily: ["var(--header-font-family)", ...headerFontFamily].join(",")
     },
     a: {
-      textDecoration: "none"
+      textDecoration: "none",
+      color: "inherit"
     }
   })
 };

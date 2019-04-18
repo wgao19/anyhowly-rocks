@@ -1,0 +1,15 @@
+:local {
+  .postMeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .article {
+    margin: 0 auto;
+  }
+
+  .title {
+    color: var(--highlight-color);
+  }
+}

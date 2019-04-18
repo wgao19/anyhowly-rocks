@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import cx from "classnames";
 import Helmet from "react-helmet";
+import { Link } from "gatsby";
+
 import Nav from "../components/Nav";
+import About from "../components/About";
 import ThemeToggle from "../components/ThemeToggle";
 import config from "../../data/SiteConfig";
-import s from "./styles.module.scss";
+import s from "./s.module.scss";
 
 const THEMES = ["rocks", "rox"];
 
@@ -28,16 +31,19 @@ const MainLayout = ({ children }) => {
       <Helmet>
         <meta name="description" content={config.siteDescription} />
       </Helmet>
-      <div className={cx(s.container, theme === "rox" ? s.rox : s.rocks)}>
-        <div className={s.navbar}>
-          <Nav />
-          <ThemeToggle
-            theme={theme}
-            className={s.toggle}
-            onClick={() => toggleTheme(theme)}
-          />
+      <div className={cx(s.page, theme === "rox" ? s.rox : s.rocks)}>
+        <div className={s.container}>
+          <h1 className={s.header}>
+            <Link to="/">Anyhowly Rocks</Link>
+            <ThemeToggle
+              theme={theme}
+              className={s.toggle}
+              onClick={() => toggleTheme(theme)}
+            />
+          </h1>
+          <About />
         </div>
-        {children}
+        <div className={s.container}>{children}</div>
       </div>
     </div>
   );

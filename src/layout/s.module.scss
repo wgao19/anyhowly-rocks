@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+$anyhowly: #8dc891;
+
+:local {
+  .page {
+    background: var(--background);
+    color: var(--color);
+    transition: all 0.2s;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 35rem;
+    margin: 0 auto;
+    padding: 1rem 0;
+    transition: all 0.2s ease;
+  }
+
+  .header {
+    color: var(--nav-color);
+    display: flex;
+    height: 6rem;
+    max-width: 35rem;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .toggle {
+    color: var(--nav-color);
+  }
+
+  .rox {
+    --header-font-family: "Gorditas";
+    --background: #efefef;
+    --color: #222;
+    --nav-background: #{lighten($anyhowly, 20%)};
+    --nav-color: #{darken($anyhowly, 10%)};
+    --highlight-color: #{darken($anyhowly, 10%)};
+    --highlight-background: white;
+  }
+
+  .rocks {
+    --header-font-family: "Bevan";
+    --background: #222;
+    --highlight-color: #{$anyhowly};
+    --nav-background: black;
+    --nav-color: white;
+    --color: #eee;
+    --highlight-background: black;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: var(--highlight-color);
+    }
+  }
+}

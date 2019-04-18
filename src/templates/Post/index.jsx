@@ -1,15 +1,15 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
-import Layout from "../layout";
-import UserInfo from "../components/UserInfo/UserInfo";
-import Disqus from "../components/Disqus/Disqus";
-import PostTags from "../components/PostTags/PostTags";
-import SocialLinks from "../components/SocialLinks/SocialLinks";
-import SEO from "../components/SEO/SEO";
-import config from "../../data/SiteConfig";
-import "./b16-tomorrow-dark.css";
-import s from "./post.module.scss";
+import Layout from "../../layout";
+import UserInfo from "../../components/UserInfo/UserInfo";
+import Disqus from "../../components/Disqus/Disqus";
+import PostTags from "../../components/PostTags/PostTags";
+import SocialLinks from "../../components/SocialLinks/SocialLinks";
+import SEO from "../../components/SEO/SEO";
+import config from "../../../data/SiteConfig";
+import "../b16-tomorrow-dark.css";
+import s from "./s.module.scss";
 
 export default class PostTemplate extends React.Component {
   render() {
@@ -30,11 +30,12 @@ export default class PostTemplate extends React.Component {
           </Helmet>
           <SEO postPath={slug} postNode={postNode} postSEO />
           <article className={s.article}>
-            <h1>{post.title}</h1>
+            <h1 className={s.title}>{post.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
             <div className={s.postMeta}>
               <PostTags tags={post.tags} />
             </div>
+            <UserInfo config={config} />
           </article>
         </div>
       </Layout>
