@@ -40,24 +40,30 @@ $anyhowly: #8dc891;
     color: var(--nav-color);
   }
 
-  .rox {
-    --header-font-family: "Gorditas";
+  .rocks {
+    --header-font-family: "Bevan";
     --background: #efefef;
     --color: #222;
     --nav-background: #{lighten($anyhowly, 20%)};
     --nav-color: #{darken($anyhowly, 10%)};
     --highlight-color: #{darken($anyhowly, 10%)};
     --highlight-background: white;
+    --font-weight: 400;
   }
 
-  .rocks {
-    --header-font-family: "Bevan";
+  .rox {
+    --header-font-family: "Gorditas";
     --background: #222;
     --highlight-color: #{$anyhowly};
     --nav-background: black;
     --nav-color: white;
     --color: #eee;
     --highlight-background: black;
+    --font-weight: 300;
+
+    p {
+      letter-spacing: 0.06px;
+    }
 
     h1,
     h2,
@@ -65,6 +71,7 @@ $anyhowly: #8dc891;
     h4,
     h5,
     h6 {
+      font-family: var(--header-font-family);
       color: var(--highlight-color);
     }
   }

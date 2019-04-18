@@ -11,7 +11,7 @@ const AnyhowlyRocksTheme = {
 
     {
       name: "Comfortaa",
-      styles: ["400", "700"]
+      styles: ["300", "700"]
     },
     {
       name: "Gorditas",
@@ -28,18 +28,16 @@ const AnyhowlyRocksTheme = {
     },
     "*": {
       fontFamily: ["var(--body-font-family)", ...bodyFontFamily].join(","),
-      fontSize: "var(--body-font-size)"
+      fontSize: "var(--body-font-size)",
+      fontWeight: "var(--font-weight)"
     },
     body: {
       padding: 0,
       margin: 0
     },
-    "h1,h2": {
+    "h1,h2,h3,h4,h5,h6": {
       color: "var(--highlight-color)",
       fontFamily: ["var(--header-font-family)", ...headerFontFamily].join(",")
-    },
-    "h3,h4,h5,h6": {
-      fontFamily: ["var(--body-font-family)", ...headerFontFamily].join(",")
     },
     "h1 a, h2 a, h3 a, h4 a, h5 a, h6 a": {
       textDecoration: "none"
