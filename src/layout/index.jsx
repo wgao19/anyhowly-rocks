@@ -9,23 +9,23 @@ import ThemeToggle from "../components/ThemeToggle";
 import config from "../../data/SiteConfig";
 import s from "./s.module.scss";
 
-const THEMES = ["rocks", "rox"];
+const THEMES = ["rox", "rocks"];
 
-const localStorage = window.localStorage;
+const localStorage = typeof window !== "undefined" ? window.localStorage : null;
 
 const MainLayout = ({ children }) => {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") || THEMES[1]
+    (localStorage && localStorage.getItem("theme")) || THEMES[1]
   );
   const toggleTheme = currentTheme => {
     let preferredTheme;
     try {
-      preferredTheme = localStorage.getItem("theme");
+      preferredTheme = localStorage && localStorage.getItem("theme");
     } catch (err) {
       console.error(err);
     }
     const newTheme = THEMES[1 - THEMES.indexOf(currentTheme)];
-    localStorage.setItem("theme", newTheme);
+    localStorage && localStorage.setItem("theme", newTheme);
     setTheme(newTheme);
   };
   return (
