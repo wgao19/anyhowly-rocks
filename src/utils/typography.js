@@ -1,6 +1,6 @@
 import Typography from "typography";
 
-const bodyFontFamily = ["Zilla Slab", "serif"];
+const bodyFontFamily = ["Comfortaa", "serif"];
 const headerFontFamily = ["Open Sans", "sans-serif"];
 const AnyhowlyRocksTheme = {
   googleFonts: [
@@ -10,20 +10,12 @@ const AnyhowlyRocksTheme = {
     },
 
     {
-      name: "Patua One",
+      name: "Comfortaa",
       styles: ["400", "700"]
     },
     {
       name: "Gorditas",
       styles: ["400", "700"]
-    },
-    {
-      name: "Zilla Slab",
-      styles: ["400", "400i", "700", "700i"]
-    },
-    {
-      name: "Open Sans",
-      styles: ["400", "400i", "700"]
     }
   ],
   headerFontFamily,
@@ -54,6 +46,9 @@ const AnyhowlyRocksTheme = {
     },
     a: {
       color: "inherit"
+    },
+    "p em, p strong": {
+      color: "var(--highlight-color)"
     }
   })
 };
