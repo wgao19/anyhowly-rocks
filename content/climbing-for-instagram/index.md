@@ -8,3 +8,5 @@ tags:
 ---
 
 Let's all climb for a clause. What is this clause? Instagram. Is there any better cause?
+
+`oembed: https://www.instagram.com/p/Bqr_-MuBdbK/`

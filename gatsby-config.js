@@ -51,6 +51,18 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `@raae/gatsby-remark-oembed`,
+            options: {
+              usePrefix: true,
+              providers: {
+                include: ["Twitter", "Instagram"],
+                settings: {
+                  Instagram: { hidecaption: true }
+                }
+              }
+            }
+          },
+          {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 690
@@ -105,6 +117,7 @@ module.exports = {
         ]
       }
     },
+
     "gatsby-plugin-offline",
     {
       resolve: "gatsby-plugin-feed",
