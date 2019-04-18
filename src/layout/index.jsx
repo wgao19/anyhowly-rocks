@@ -9,7 +9,7 @@ import ThemeToggle from "../components/ThemeToggle";
 import config from "../../data/SiteConfig";
 import s from "./s.module.scss";
 
-const THEMES = ["rox", "rocks"];
+const THEMES = ["rocks", "rox"];
 
 const localStorage = typeof window !== "undefined" ? window.localStorage : null;
 
