@@ -75,4 +75,22 @@ $anyhowly: #8dc891;
       color: var(--highlight-color);
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    .page {
+      padding: 1rem;
+    }
+
+    .header {
+      white-space: nowrap;
+    }
+
+    .toggle {
+      display: none;
+    }
+
+    .container {
+      padding: 0;
+    }
+  }
 }
