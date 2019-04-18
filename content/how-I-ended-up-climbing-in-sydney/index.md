@@ -8,9 +8,7 @@ tags:
   - climb
 ---
 
-Also known as
-
-## A three-step guide on how to boot start your trip in a climbing gym 😂
+Also known as **a three-step guide on how to boot start your trip in a climbing gym**.
 
 ### Step 1: You know there is such a gym
 
