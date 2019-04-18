@@ -26,9 +26,12 @@ class PostListing extends React.Component {
         {/* Your post list here. */
         postList.map(post => (
           <section className={s.post}>
-            <Link to={post.path} key={post.title}>
-              <h1 className={s.title}>{post.title}</h1>
-            </Link>
+            <h1 className={s.title}>
+              <Link to={post.path} key={post.title}>
+                {post.title}
+              </Link>
+            </h1>
+
             <p>
               {post.excerpt}
               <Link to={post.path} className={s.read}>
