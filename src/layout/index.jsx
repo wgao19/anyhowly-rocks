@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import Helmet from "react-helmet";
+import Intro from "../components/Intro";
 import config from "../../data/SiteConfig";
 import "./index.css";
 
@@ -15,6 +16,7 @@ export default class MainLayout extends React.Component {
         <h1>
           <Link to="/">{config.siteTitle}</Link>
         </h1>
+        <Intro meta={config} />
         {children}
       </div>
     );
