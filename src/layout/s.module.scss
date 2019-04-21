@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+:local {
+  .siteHeader a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .container {
+    max-width: 35rem;
+    margin: 0 auto;
+  }
+}
