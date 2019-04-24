@@ -57,6 +57,30 @@ The whole slides and workshop content are composed and revised in public. You ma
 - List of extra things remember to do
   - Demo the site we created, introduce people to more possibilities
 
+## Source code
+
+The site includes one branch for each step / feature we want people to build in this workshop. We'll roughly follow this:
+
+- 0-initial-commit
+- 1-up-and-running
+- 2-1-add-a-custom-page
+- 2-2-add-header-to-layout
+- 2-3-post-listing
+- 2-3-use-layout-in-custom-page
+- 2-4-add-intro-to-layout
+- 2-layout
+- 3-queries
+- 4-1-use-sass-and-css-module
+- 4-2-styling-with-sass-and-css-modules
+- 4-3-basic-typesetting
+- 4-4-typography
+- 4-5-customize-typography-theme
+- 4-styling
+
+## Contributing
+
+Contributions to this repo in any form (content, site, workshop material) are welcome and much appreciated!
+
 ## Other Nonsense
 
 ### Personal story behind this site
@@ -74,3 +98,7 @@ I'm gonna call it anyhowly rocks. That's the born style of my community. And the
 Basically my friend [@huijing](https://github.com/huijing) anyhowly inspires me with a bunch of keywords and hashtags of life. And `anyhowly` is a classic.
 
 I anyhowly climb lah.
+
+### Anyhowly Rocks v.s. Anyhowly Rox
+
+Thought it'd be fun to build a night theme. Furthermore, since guys and girls climb very differently, this supplies a semantic meaning for two themes to have. And I took the liberty to making the night theme the more girlish one and call it Anyhowly Rox :]
