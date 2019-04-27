@@ -58,7 +58,7 @@ The whole slides and workshop content are composed and revised in public. You ma
 
 - [Slides](https://speak.wgao19.cc/slides/1904-gatsby-developers-gym/)
 - Preparation materials
-  - [Preface](https://paper.dropbox.com/doc/0-Preface-v0jdJCn9wOCRd5t2CK7r1) This one is rather personal, but you may use it anyway
+  - [Preface](./docs/0-preface.md) This one is rather personal, but you may use it anyway
   - [Introduction](https://paper.dropbox.com/doc/1-Intro-lKrNqMpV6PTg3nkfxM54K) Covers what is Gatsby, static site generators, JAMStack concept, Gatsby Starters, Gatsby Plugins, and a peak into Gatsby Themes.
   - [Up and Running](https://paper.dropbox.com/doc/2-Up-and-Running-oLi0QWOcOZWE4oFDfZaO3) Setting up environment, get site running with Gatsby Advanced Starter. Introduces Gatsby CLI, Gatsby Config, Gatsby Node APIs.
   - [Layouts](https://paper.dropbox.com/doc/3-Layouts-BEGMcrHWBK2gWH2yXKOHT) Writing and using a Layout. Introduces React's mindset if people are not familiar.
