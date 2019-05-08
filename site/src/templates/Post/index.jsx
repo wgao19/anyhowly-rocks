@@ -5,7 +5,6 @@ import Layout from "../../layout";
 import PostTags from "../../components/PostTags/PostTags";
 import SEO from "../../components/SEO/SEO";
 import config from "../../../data/SiteConfig";
-import thumbnail from "../../../static/climbing-meme.jpg";
 import "../b16-tomorrow-dark.css";
 import s from "./s.module.scss";
 
@@ -25,8 +24,6 @@ export default class PostTemplate extends React.Component {
         <div>
           <Helmet>
             <title>{`${post.title} | ${config.siteTitle}`}</title>
-            <meta property="og:image" content={thumbnail} />
-            <meta property="twitter:image" content={thumbnail} />
           </Helmet>
           <SEO postPath={slug} postNode={postNode} postSEO />
           <article className={s.article}>

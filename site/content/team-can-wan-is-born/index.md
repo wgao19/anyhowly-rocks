@@ -1,6 +1,6 @@
 ---
 title: "Team Can WAN is Born"
-cover: "https://images.unsplash.com/photo-1423439793616-f2aa4356b37e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80"
+cover: "https://i.imgur.com/rgfaPu6.jpg"
 date: "05/09/2018"
 category: "anyhowly"
 tags:

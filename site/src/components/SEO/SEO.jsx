@@ -83,6 +83,7 @@ class SEO extends Component {
         {postSEO ? <meta property="og:type" content="article" /> : null}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
+        <meta property="og:image" content={image} />
         <meta
           property="fb:app_id"
           content={config.siteFBAppID ? config.siteFBAppID : ""}

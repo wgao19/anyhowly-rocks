@@ -3,7 +3,6 @@ import cx from "classnames";
 import Helmet from "react-helmet";
 import { Link } from "gatsby";
 
-import Nav from "../components/Nav";
 import About from "../components/About";
 import ThemeToggle from "../components/ThemeToggle";
 import config from "../../data/SiteConfig";
